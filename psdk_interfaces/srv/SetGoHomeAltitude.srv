@@ -1,5 +1,0 @@
-#request
-uint16 altitude     # unit: m  range 20~500 m 
----
-#response
-bool success
