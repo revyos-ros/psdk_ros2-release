@@ -1,0 +1,12 @@
+Source: ros-humble-psdk-wrapper
+Section: misc
+Priority: optional
+Maintainer: Bianca Bendris <bianca@unmanned.life>
+Build-Depends: debhelper (>= 9.0.0), libavcodec-dev, libavdevice-dev, libavfilter-dev, libavformat-dev, libavutil-dev, libopus-dev, libpostproc-dev, libswresample-dev, libswscale-dev, libusb-1.0-0-dev, nlohmann-json3-dev, ros-humble-ament-cmake, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-geometry-msgs, ros-humble-nav-msgs, ros-humble-psdk-interfaces, ros-humble-rclcpp, ros-humble-rclcpp-lifecycle, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-tf2, ros-humble-tf2-ros, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-psdk-wrapper
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libavcodec-dev, libavdevice-dev, libavfilter-dev, libavformat-dev, libavutil-dev, libopus-dev, libpostproc-dev, libswresample-dev, libswscale-dev, libusb-1.0-0-dev, nlohmann-json3-dev, ros-humble-geometry-msgs, ros-humble-nav-msgs, ros-humble-psdk-interfaces, ros-humble-rclcpp, ros-humble-rclcpp-lifecycle, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-tf2, ros-humble-tf2-ros, ros-humble-ros-workspace
+Description: ROS2 wrapper for the DJI PSDK
