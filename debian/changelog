@@ -1,0 +1,127 @@
+ros-humble-psdk-interfaces (1.3.0-2bookworm) bookworm; urgency=high
+
+  * Separate each module with an individual thread
+  * Contributors: Rafael Perez-Segui, biancabnd
+
+ -- Bianca Bendris <bianca@unmanned.life>  Thu, 30 May 2024 16:00:00 -0000
+
+ros-humble-psdk-interfaces (1.2.1-2bookworm) bookworm; urgency=high
+
+  * Merge pull request #101 <https://github.com/umdlife/psdk_ros2/issues/101> from umdlife/hotfix/build-farm
+    Add action_msgs as dependency
+  * Contributors: biancabnd, vicmassy
+
+ -- Bianca Bendris <bianca@unmanned.life>  Thu, 23 May 2024 16:00:00 -0000
+
+ros-humble-psdk-interfaces (1.2.0-2bookworm) bookworm; urgency=high
+
+  * Merge pull request #81 <https://github.com/umdlife/psdk_ros2/issues/81> from umdlife/feat/sd_images
+    SD card functions
+  * Merge pull request #76 <https://github.com/umdlife/psdk_ros2/issues/76> from umdlife/feat/psdk-3.8.1
+    Upgrade to Payload-SDK v3.8.1
+  * Contributors: DominikWawak, Victor Massagué Respall, biancabnd
+
+ -- Bianca Bendris <bianca@unmanned.life>  Wed, 22 May 2024 16:00:00 -0000
+
+ros-humble-psdk-interfaces (1.1.1-2bookworm) bookworm; urgency=high
+
+  * Merge pull request #68 <https://github.com/umdlife/psdk_ros2/issues/68> from umdlife/hotfix/motors-stop
+    Add ESC data
+  * Merge remote-tracking branch 'origin/main' into add_namespace_to_tf
+  * Contributors: DominikWawak, Rafael Perez-Segui, biancabnd
+
+ -- Bianca Bendris <bianca@unmanned.life>  Tue, 26 Mar 2024 16:00:00 -0000
+
+ros-humble-psdk-interfaces (1.1.0-2bookworm) bookworm; urgency=high
+
+  * Merge pull request #51 <https://github.com/umdlife/psdk_ros2/issues/51> from umdlife/feat/hms-support
+    Integration of Health Monitoring System (HMS) as a module
+  * Merge pull request #59 <https://github.com/umdlife/psdk_ros2/issues/59> from umdlife/extend_single_battery_info
+    Extend single battery info
+  * Merge pull request #57 <https://github.com/umdlife/psdk_ros2/issues/57> from umdlife/feat/single_battery_info
+    Add new message types HmsInfoMsg, HmsInfoTable
+  * Contributors: Stevedan, Victor Massagué Respall, amoramar, biancabnd, marta
+
+ -- Bianca Bendris <bianca@unmanned.life>  Mon, 19 Feb 2024 16:00:00 -0000
+
+ros-humble-psdk-interfaces (1.0.0-2bookworm) bookworm; urgency=high
+
+  * Merge pull request #34 <https://github.com/umdlife/psdk_ros2/issues/34> from umdlife/feat/upgrade-to-psdk-v3.8
+    Feat/upgrade to psdk v3.8
+  * Upgrade wrapper to be compatible with DJI PSDK v3.8
+  * Contributors: Victor Massagué Respall, biancabnd
+
+ -- Bianca Bendris <bianca@unmanned.life>  Tue, 13 Feb 2024 16:00:00 -0000
+
+ros-humble-psdk-interfaces (0.0.5-2bookworm) bookworm; urgency=high
+
+  * Merge pull request #48 <https://github.com/umdlife/psdk_ros2/issues/48> from umdlife/hotfix/update_documentation
+    Unify build and deploy documentation workflow
+  * Contributors: biancabnd
+
+ -- Bianca Bendris <bianca@unmanned.life>  Sun, 04 Feb 2024 16:00:00 -0000
+
+ros-humble-psdk-interfaces (0.0.4-2bookworm) bookworm; urgency=high
+
+  * Update maintainers
+  * Contributors: vicmassy
+
+ -- Bianca Bendris <bianca@unmanned.life>  Sun, 28 Jan 2024 16:00:00 -0000
+
+ros-humble-psdk-interfaces (0.0.3-2bookworm) bookworm; urgency=high
+
+  * Merge pull request #35 <https://github.com/umdlife/psdk_ros2/issues/35> from umdlife/feat/stream-publisher
+    Enable encoded and decoded stream publishing
+  * Add license tag to package.xml
+  * Enable the user to choose among raw or decoded streaming
+  * Contributors: Victor Massagué Respall, biancabnd, vicmassy
+
+ -- Bianca Bendris <bianca@unmanned.life>  Tue, 23 Jan 2024 16:00:00 -0000
+
+ros-humble-psdk-interfaces (0.0.2-2bookworm) bookworm; urgency=high
+
+  * Merge pull request #33 <https://github.com/umdlife/psdk_ros2/issues/33> from umdlife/feat/add-data-topics
+    Additional topics
+  * Add altitude topics
+    Add max retry
+  * Contributors: Sergi Grau Moya, biancabnd, vicmassy
+
+ -- Bianca Bendris <bianca@unmanned.life>  Sun, 14 Jan 2024 16:00:00 -0000
+
+ros-humble-psdk-interfaces (0.0.1-2bookworm) bookworm; urgency=high
+
+  * Merge pull request #17 <https://github.com/umdlife/psdk_ros2/issues/17> from umdlife/feat/add-additional-status-info
+    Add additional status info
+  * Add home point and control mode info
+  * Add RC connection status publisher
+  * Contributors: Victor Massagué Respall, biancabnd
+
+ -- Bianca Bendris <bianca@unmanned.life>  Wed, 27 Sep 2023 16:00:00 -0000
+
+ros-humble-psdk-interfaces (0.0.0-2bookworm) bookworm; urgency=high
+
+  * Merge pull request #7 <https://github.com/umdlife/psdk_ros2/issues/7> from umdlife/feat/open-source-prep
+    Open source preparations
+  * Use standard battery msgs instead of custom one
+  * Convert gps fused msg to standard sensor_msgs NavsatFix
+  * Convert gimbal command from ENU to NED
+  * Renamings + additional documentation added for all services and subscribers
+  * Add set/get camera aperture function
+  * Add streaming interface
+  * Add comments to methods/ros publishers + convert gimbal angles to rad and ENU + fix spelling errors
+  * Rename aircraft_status to display_mode + update docs
+  * Merge pull request #2 <https://github.com/umdlife/psdk_ros2/issues/2> from umdlife/feat/psdk-sensors
+    Feat/psdk sensors
+  * removing streaming
+  * gimbal rotation is subscriber
+  * changes to address PR comments
+  * angles in rad instead of deg
+  * Merge branch 'main' into feat/psdk-sensors
+  * Merge pull request #3 <https://github.com/umdlife/psdk_ros2/issues/3> from umdlife/feat/psdk-core-UP-2096
+    PSDK core functions + subscribers + basic flight control
+  * Rename folders and classes
+  * Contributors: Victor Massagué Respall, biancabnd, lidia
+
+ -- Bianca Bendris <bianca@unmanned.life>  Mon, 25 Sep 2023 16:00:00 -0000
+
+
