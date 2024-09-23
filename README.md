@@ -1,3 +1,28 @@
+## psdk_ros2 (humble) - 1.3.2-1
+
+The packages in the `psdk_ros2` repository were released into the `humble` distro by running `/home/z572/gits/revyos-ros/venv/bin/bloom-release -r humble psdk_ros2 --override-release-repository-push-url git@github.com:revyos-ros/psdk_ros2-release.git` on `Mon, 23 Sep 2024 05:20:08 -0000`
+
+These packages were released:
+- `psdk_interfaces`
+- `psdk_wrapper`
+
+Version of package(s) in repository `psdk_ros2`:
+
+- upstream repository: https://github.com/umdlife/psdk_ros2.git
+- release repository: https://github.com/revyos-ros/psdk_ros2-release.git
+- rosdistro version: `1.3.2-1`
+- old version: `1.3.0-2`
+- new version: `1.3.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## psdk_ros2 (humble) - 1.3.0-2
 
 The packages in the `psdk_ros2` repository were released into the `humble` distro by running `/usr/bin/bloom-release --override-release-repository-url=git@github.com:revyos-ros/psdk_ros2-release.git -r humble psdk_ros2` on `Wed, 05 Jun 2024 14:18:10 -0000`
