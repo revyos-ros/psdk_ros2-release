@@ -1,5 +1,0 @@
-#request
----
-#response
-uint16 altitude     # unit m
-bool success
